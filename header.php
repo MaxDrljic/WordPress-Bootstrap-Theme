@@ -60,7 +60,7 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="/"><img src="assets/img/logo.png" alt="WordPress Bootstrap"></a>
+            <a class="navbar-brand" href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="WordPress Bootstrap"></a>
           </div><!-- navbar-header -->
 
 					<?php 
