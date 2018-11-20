@@ -44,7 +44,8 @@ if ( ! function_exists( 'bootstrap2wordpress_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'bootstrap2wordpress' ),
+			'primary' => __( 'Primary Menu', 'bootstrap2wordpress' ),
+			'footer' => __( 'Footer Menu', 'bootstrap2wordpress' ),
 		) );
 
 		/*

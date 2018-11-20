@@ -15,7 +15,9 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+  <title><?php wp_title( '|', true, 'right' ); ?></title>
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 	<!-- Bootstrap Core CSS-->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -60,7 +62,7 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="WordPress Bootstrap"></a>
+            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="WordPress Bootstrap"></a>
           </div><!-- navbar-header -->
 
 					<?php 
@@ -81,5 +83,3 @@
     </div><!-- navbar-wrapper-->
 
   </header>
-
-	<div id="content" class="site-content">
