@@ -48,7 +48,3 @@
 	</div><!-- post excerpt -->
 
 </article><!-- #post-<?php the_ID(); ?> -->
-
-<footer class="entry-footer">
-	<?php bootstrap2wordpress_entry_footer(); ?>
-</footer><!-- .entry-footer -->
