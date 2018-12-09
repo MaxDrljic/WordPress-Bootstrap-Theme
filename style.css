@@ -962,6 +962,20 @@ footer li.signup-link a:hover {
   border-top: 1px solid #eee;
 }
 
+/* Specific WordPress comment styles */
+#comments footer {
+  background: none;
+  color: inherit;
+}
+
+#comments footer a {
+  color: inherit;
+}
+
+#comments .comment-metadata {
+  margin: 10px 0 0;
+}
+
 /* === RESOURCES === */
 
 .resource {
@@ -1036,6 +1050,7 @@ textarea {
 
 input[type="submit"],
 button[type="submit"] {
+  color: rgb(221, 86, 56);
   display: inline-block;
   margin-bottom: 0;
   font-size: 18px;
