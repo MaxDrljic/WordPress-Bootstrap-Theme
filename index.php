@@ -65,6 +65,8 @@ get_header();
       ============================================= -->
       <aside class="col-sm-4">
 				<?php get_sidebar(); ?>
+				<!-- imports custom sidebar by ID -->
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
 			</aside>
 
 		</div><!-- primary -->
