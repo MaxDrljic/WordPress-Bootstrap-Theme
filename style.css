@@ -1054,7 +1054,7 @@ textarea {
 
 input[type="submit"],
 button[type="submit"] {
-  color: rgb(221, 86, 56);
+  color: white;
   display: inline-block;
   margin-bottom: 0;
   font-size: 18px;
